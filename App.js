@@ -11,9 +11,8 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1, boxSizing: 'border-box'}}>
       <Calcular/>
-      <FontAwesome5 name={'angle-left'} size={30}/>
     </SafeAreaView>
   );
 };
